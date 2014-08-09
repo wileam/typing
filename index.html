@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Typing Exercise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="content">
+        <div id="heading">
+            Typing Fundamentals
+        </div>
+        <div id="utilBar">
+            <select onchange="changeEx();" id="exerciseSelector"><option>Choose an exercise!</select>
+            <div id="feedback">
+            </div>
+            <div class="buttons">
+                <button onclick="reset();">Reset</button>
+                <button onclick="doFinished();">Done!</button>
+            </div>
+        </div>
+        <div class="areaLabel">Exercise Text:</div>
+        <div id="prompt">
+            Hello. Please choose an exercise to begin!
+        </div>
+        <div class="areaLabel">Type here:
+            <div class="buttons">
+                <button onclick="reset();">Reset</button>
+                <button onclick="doFinished();">Done!</button>
+            </div></div>
+            <div id="response">
+                <textarea id="response_input" onkeyup="getKeyDown();" spellcheck="false"></textarea>
+
+            </div>
+        </div>
+
+        <!-- scripts -->
+        <script src="scripts.js"></script>
+    </body>
+    </html>

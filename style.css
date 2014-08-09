@@ -1,0 +1,63 @@
+body {
+    font-family: font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
+    font-weight: light;
+    background: rgb(100,100,100);
+    color:black;
+    }
+#content {
+    background:rgb(200,200,200);
+    margin: 0 auto;
+    border-radius:4px;
+    border:1px solid black;
+    padding:5px;
+    }
+#heading {
+    color:black;
+    padding:2px;
+    text-align:center;
+    font-size:16pt;
+    }
+#utilBar {
+    background: rgb(150,150,150);
+    padding:2px;
+    width:100%;
+    }
+#feedback {
+    display:inline;
+    color:white;
+    }
+.buttons {
+    color:white;
+    float:right;
+    }
+#prompt, textarea {
+    font-family: monospace;
+    font-size: 11pt;
+    line-height: 22pt;
+    }
+.matchCorrect {
+    background-color: rgba(86, 180, 255, 0.3);
+    }
+.matchIncorrect {
+    background-color: rgba(213, 94, 0, 0.3);
+    }
+#prompt {
+    padding-left: 2px;
+    background: rgba(0,0,0,0.1);
+    padding-left: 10px;
+    }
+textarea {
+    max-width:100%;
+    width:100%;
+    background:rgba(0,0,0,0);
+    padding-left: 10px;
+    }
+#response {
+    background:white;
+    }
+.areaLabel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    }
+    }
