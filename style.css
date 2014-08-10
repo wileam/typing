@@ -7,6 +7,33 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
           box-sizing: border-box;
 }
 
+/**
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
 body {
     font-family: font-family: Georgia, "Times New Roman", "Microsoft YaHei", "微软雅黑", STXihei, "华文细黑", serif;
     font-weight: light;
@@ -45,17 +72,32 @@ body {
     font-size: 11pt;
     line-height: 22pt;
     }
+.keyboard {
+    display: none;
+    z-index: 99;
+    float: right;
+    margin: 10px;
+}
+#prompt-wrap.showKeyboard {
+    min-height: 300px;
+}
+#prompt-wrap.showKeyboard .keyboard {
+    display: block;
+}
 .matchCorrect {
     background-color: rgba(86, 180, 255, 0.3);
     }
 .matchIncorrect {
     background-color: rgba(213, 94, 0, 0.3);
     }
-#prompt {
+#prompt-wrap {
     padding-left: 2px;
     background: rgba(0,0,0,0.1);
     padding-left: 10px;
     }
+#prompt {
+    float: left;
+}
 textarea {
     max-width:100%;
     width:100%;

@@ -106,3 +106,12 @@ function doFinished(){
     document.getElementById('feedback').innerHTML = window.wpm + "WPM, " + window.errorCount + " errors. (Adjusted WPM: " + adjustedWpm + ")";
 }
 document.getElementById('response_input').disabled = true;
+
+$('#keyboardHandle').on('click', function(event) {
+    $('#prompt-wrap').toggleClass('showKeyboard');
+    if ($(this).html() === "ShowKeyboard") {
+        $(this).html("HideKeyboard");
+    } else{
+        $(this).html("ShowKeyboard");
+    };
+});
