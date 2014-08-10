@@ -52,7 +52,7 @@ function populatePrompt() {
         }
     }
     document.getElementById('prompt').innerHTML = thePromptString;
-    document.getElementById('response_input').style.height = document.getElementById('prompt').clientHeight
+    document.getElementById('response_input').style.height = document.getElementById('prompt').clientHeight + "px";
     document.getElementById('response_input').disabled = false;
 }
 
