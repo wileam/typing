@@ -30,19 +30,21 @@
             </div>
             <img class="keyboard" src="keyboard.png" height="250px" alt="">
         </div>
-        <div class="areaLabel">Type here:
+        <div class="areaLabel">
             <div class="buttons">
                 <button onclick="reset();">Reset</button>
                 <button onclick="doFinished();">Done!</button>
-            </div></div>
-            <div id="response">
-                <textarea id="response_input" onkeyup="getKeyDown();" spellcheck="false"></textarea>
             </div>
+            <span>Type here:</span>
         </div>
+        <div id="response">
+            <textarea id="response_input" onkeyup="getKeyDown();" spellcheck="false"></textarea>
+        </div>
+    </div>
 
-        <!-- scripts -->
-        <!-- // <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script> -->
-        <script src="jquery-1.9.js"></script>
-        <script src="scripts.js"></script>
-    </body>
-    </html>
+    <!-- scripts -->
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+    <!-- <script src="jquery-1.9.js"></script> -->
+    <script src="scripts.js"></script>
+</body>
+</html>
