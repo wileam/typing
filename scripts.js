@@ -17,16 +17,16 @@ var exerciseText = {
     "67890 Lesson" : "6666 7777 8888 9999 0000\n6 7 8 9 0 6 7 8 9 0 6 7 8 9 0 6 7 8 9 0\n67890 67890 67890 67890\n69708 70698 86097 97086 07968",
     "67890 Cumulative" : "6 of my family members are currently over 90 years old.\nthere are 7 days in a week and 52 weeks in 1 year.\n197 nations participated in the 1996 summer olympics.\n10 weeks ago 4 of my relatives came to visit for 8 days.\nthere is a 45 minute wait at 1 of my favorite restaurants tonight.",
     "[]-=\\ Lesson" : "[[[[ ]]]] \\\\\\\\ ---- ====\n[ ] \\ - = [ ] \\ - = [ ] \\ - = [ ] \\ - =\n[]\\-= []\\-= []\\-= []\\-=\n]-=\\[ \\[-]= -][\\= =\\-][",
-    "[]-=\\ Cumulative" : "[;[;[;[; ];];];]; \\;\\;\\;\\; -;-;-;-; =;=;=;=;\n[;];\\;-;=; [;];\\;-;=; [;];\\;-;=; [;];\\;-;=;\n[ ; ] ; \\ ; - ; = ; [ ; ] ; \\ ; - ; = ;\nwe are expecting the new employee [in the marketing department] to excel.\nthe \\ symbol [backslash] is used to access websites\nby going to lynda.com/subject/all you can view all the courses on lynda.com\n[9 - 4 = 5] [8 - 2 = 6] [7 - 6 = 1] [7 - 4 = 3]\n[4 - 1 = 2] [7 - 3 = 4] [ 9 - 5 = 4] [4 - 2 = 2]",
-    "Shift Keys Lesson" : "George Washington was the first president of the United States.\nThe Amazon River in South America and the Nile River in Africa are the longest rivers in the world.\nEdmund Hillary [from New Zealand] was the first person to climb the highest mountain in the world, Mount Everest.\nBelize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, and Panama are the 7 countries that make up Central America.\nHistorically, there are 4 oceanic regions that make up the world's entire ocean: Atlantic Ocean, Pacific Ocean, Indian Ocean and Arctic Ocean.",
-    "Numeric Home Row Lesson" : "444455556666++++0000\n456+0456+0456+0456+0\n405060+0405060+0\n4+5+6+0+4+5+6+0+4+5+6+0+4+5+6+0\n5460+6450+0564+5460+6450+0564",
-    "Numeric Index Finger Lesson" : "777744441111777744441111\n741741741741741741741741\n74747474141414147474747414141414\n174714471174714471",
-    "Numeric Index Finger Cumulative" : "4+7+1+5+6+0+4+7+1+5+6+0\n5+7+4+1+0+6+5+7+4+1+0+6\n406571+175604+406571+175604\n740651+156047+740651+156047",
-    "Numeric Middle Finger Lesson" : "888855552222888855552222\n852852852852852852852852\n858585852525252525252525\n825258825258825258825258",
-    "Numeric Middle Finger Cumulative" : "81+46+57+02+81+46+57+02\n624+810+715+425+624+810+715+425\n8751+6402+1578+2046+8751+6402+1578+2046",
-    "Numeric Ring Finger Lesson" : "999966663333....\n963.963.963.963.\n9696969636363636.6.6.6.6\n396.963.693.369.396.963.693.369",
-    "Numeric Ring Finger Cumulative" : "95.20+51.73+403.621\n48.62+70.39+20.51+72.91\n7028.36+9163.05+3890.42+1638.59\n9583.61+2409.83+5036.19+6382.07",
-    "Numeric Pinky Finger Cumulative" : "1+8=9\n7*3=21\n9-6=3\n60/3=20\n23*4=92\n75/3=25\n83+17=100\n83+17=100\n62.76-43.81=18.95\n1042.5+8039.3=9081.8"
+    "[]-=\\ Cumulative" : "[;[;[;[; ];];];]; \\;\\;\\;\\; -;-;-;-; =;=;=;=;\n[;];\\;-;=; [;];\\;-;=; [;];\\;-;=; [;];\\;-;=;\n[ ; ] ; \\ ; - ; = ; [ ; ] ; \\ ; - ; = ;\nwe are expecting the new employee [in the marketing department] to excel.\nthe \\ symbol [backslash] is used to access websites\nby going to lynda.com/subject/all you can view all the courses on lynda.com\n[9-4 = 5] [8 - 2 = 6] [7 - 6 = 1] [7 - 4 = 3]\n[4 - 1 = 2] [7 - 3 = 4] [9 - 5 = 4] [4 - 2 = 2]",
+    "Shift Keys Lesson" : "George Washington was the first president of the United States.\nThe Amazon River in South America and the Nile River in Africa are the longest rivers in the world.\nEdmund Hillary [from New Zealand] was the first person to climb the highest mountain in the world, Mount Everest.\nBelize, Costa Rica, El Salvador, Guatemala, Honduras, Nicaragua, and Panama are the 7 countries that make up Central America.\nHistorically, there are 4 oceanic regions that make up the world's entire ocean: Atlantic Ocean, Pacific Ocean, Indian Ocean and Arctic Ocean."
+    // "Numeric Home Row Lesson" : "444455556666++++0000\n456+0456+0456+0456+0\n405060+0405060+0\n4+5+6+0+4+5+6+0+4+5+6+0+4+5+6+0\n5460+6450+0564+5460+6450+0564",
+    // "Numeric Index Finger Lesson" : "777744441111777744441111\n741741741741741741741741\n74747474141414147474747414141414\n174714471174714471",
+    // "Numeric Index Finger Cumulative" : "4+7+1+5+6+0+4+7+1+5+6+0\n5+7+4+1+0+6+5+7+4+1+0+6\n406571+175604+406571+175604\n740651+156047+740651+156047",
+    // "Numeric Middle Finger Lesson" : "888855552222888855552222\n852852852852852852852852\n858585852525252525252525\n825258825258825258825258",
+    // "Numeric Middle Finger Cumulative" : "81+46+57+02+81+46+57+02\n624+810+715+425+624+810+715+425\n8751+6402+1578+2046+8751+6402+1578+2046",
+    // "Numeric Ring Finger Lesson" : "999966663333....\n963.963.963.963.\n9696969636363636.6.6.6.6\n396.963.693.369.396.963.693.369",
+    // "Numeric Ring Finger Cumulative" : "95.20+51.73+403.621\n48.62+70.39+20.51+72.91\n7028.36+9163.05+3890.42+1638.59\n9583.61+2409.83+5036.19+6382.07",
+    // "Numeric Pinky Finger Cumulative" : "1+8=9\n7*3=21\n9-6=3\n60/3=20\n23*4=92\n75/3=25\n83+17=100\n83+17=100\n62.76-43.81=18.95\n1042.5+8039.3=9081.8"
 }
 
 for (var k in exerciseText) {
